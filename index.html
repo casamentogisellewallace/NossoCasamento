@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casamento Giselle & Wallace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed w-full top-0 z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <img src="G W.png" alt="Logo do Casamento" class="h-10">
+      <button id="menuBtn" type="button" class="md:hidden text-blue-600 text-2xl focus:outline-none focus:ring-2 focus:ring-blue-600">☰</button>
+      <ul id="menu" class="hidden md:flex space-x-6 flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow md:shadow-none p-6 md:p-0 transition-all duration-300">
+        <li><a href="#home" class="block py-2 hover:text-blue-600 transition">Início</a></li>
+        <li><a href="#historia" class="block py-2 hover:text-blue-600 transition">Nossa História</a></li>
+        <li><a href="#programacao" class="block py-2 hover:text-blue-600 transition">Evento</a></li>
+        <li><a href="#presentes" class="block py-2 hover:text-blue-600 transition">Presentes</a></li>
+        <li><a href="#rsvp" class="block py-2 hover:text-blue-600 transition">RSVP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home"
+    class="h-screen bg-cover bg-center flex items-center justify-center px-4 text-center"
+    style="background-image: url('crush.jpeg');">
+    <div class="bg-black bg-opacity-50 p-6 md:p-10 rounded-xl text-white">
+      <h2 class="text-3xl md:text-6xl font-bold mb-4">Giselle & Wallace</h2>
+      <p class="text-lg md:text-2xl mb-6">Dia 08 de Novembro de 2025</p>
+      <a href="#programacao"
+        class="bg-blue-950 px-6 py-3 rounded-full text-base md:text-lg font-semibold hover:bg-blue-300 transition">
+        Saiba mais
+      </a>
+    </div>
+  </section>
+
+  <!-- Nossa História -->
+  <section id="historia" class="py-16 max-w-6xl mx-auto px-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-600 mb-8">💖 Nossa História 💖</h2>
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <img src="502626217_18511016560027738_7797397349597336168_n.jpg" alt="Casal" class="rounded-xl shadow-lg w-full">
+      <p class="text-base md:text-lg leading-relaxed">
+        Em 2019, o destino decidiu brincar de cupido e nos colocou frente a frente mais uma vez. Foi apenas em 2020 que nossas vidas se entrelaçaram de verdade e, desde então, não nos desgrudamos mais.
+        Vieram dias de risadas até a barriga doer, abraços que dizem mais do que mil palavras, viagens que se transformaram em memórias eternas e pequenos gestos que, juntos, construíram um amor imenso. Entre um pôr do sol na praia, uma foto espontânea e um olhar cúmplice, fomos escrevendo, capítulo a capítulo, a nossa história.
+        Enfrentamos juntos desafios, celebramos conquistas e descobrimos que o segredo está em caminhar lado a lado, com amor, respeito e fé. Hoje, cada lembrança é um pedacinho de nós e é com o coração cheio de gratidão que queremos dividir este próximo passo com todos vocês.
+        Em breve, diremos “sim” diante das pessoas que amamos e receberemos a bênção do Todo-Poderoso para esta nova etapa. Será um dia para celebrar não só a nossa união, mas também a presença e o carinho de cada um que fez e faz parte dessa caminhada.
+      </p>
+    </div>
+  </section>
+
+  <!-- Programação -->
+  <section id="programacao" class="bg-blue-950 text-white w-full py-12 flex items-center justify-center">
+    <div class="w-full max-w-md md:max-w-2xl px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-100 mb-8">Programação</h2>
+      <p class="text-center text-sm mb-6">18 NOVEMBRO 2025</p>
+      <ul class="space-y-6 text-base">
+        <li class="border-b border-white/30 pb-2">18:00 - Chegada dos convidados</li>
+        <li class="flex justify-between items-center border-b border-white/30 pb-2">
+          <span>19:30 - Cerimônia</span>
+          <a href="#" class="bg-blue-300 hover:bg-blue-700 text-white text-xs px-4 py-1 rounded-full transition">Início</a>
+        </li>
+        <li class="flex justify-between items-center">
+          <span>Logo após: Festa</span>
+          <a href="#" class="bg-blue-300 hover:bg-blue-700 text-white text-xs px-4 py-1 rounded-full transition">Saiba</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Presentes -->
+  <section id="presentes" class="py-16 px-6 bg-blue-900 w-full">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-blue-100 mb-8">Lista de Presentes</h2>
+      <a href="https://www.mercadolivre.com.br/presentes/giselle-e-wallace-phue9"
+         class="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 
+         text-white font-semibold text-sm md:text-base px-5 py-2 rounded-full 
+         shadow-lg hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 
+         transition duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+        Acessar Lista
+      </a>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="py-16 bg-blue-950 px-4">
+    <section id="rsvp" class="py-16 bg-blue-950 px-4">
+  <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-100 mb-8">Confirmação de Presença</h2>
+  <form id="whatsappForm" class="max-w-lg mx-auto bg-white p-6 md:p-8 rounded-xl shadow space-y-6">
+    <input type="text" id="nome" placeholder="Jesus, Maria e José" class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-600" required>
+    <select id="confirmacao" class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-600" required>
+      <option value="Confirmo presença">Confirmo presença</option>
+      <option value="Não poderei ir">Não poderei ir</option>
+    </select>
+    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+      Enviar pelo WhatsApp
+    </button>
+  </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-white py-6 text-center text-gray-600">
+    <p>Feito com ❤️ Giselle & Wallace - 2025</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Menu mobile
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
+    menuBtn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    // Formulário WhatsApp
+    document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let nome = document.getElementById("nome").value;
+      let confirmacao = document.getElementById("confirmacao").value;
+      let numero = "5521964984007";
+
+      let mensagem = `Confirmação de Presença\nNome: ${nome}\nStatus: ${confirmacao}\nAcompanhantes: ${acompanhantes}`;
+      let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
+    });
+  </script>
+
+</body>
+</html>
