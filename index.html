@@ -37,7 +37,7 @@
   <!-- Hero -->
   <section id="home"
     class="h-screen bg-cover bg-center flex items-center justify-center px-4 text-center"
-    style="background-image: url('WhatsApp Image 2025-09-19 at 20.26.04.jpeg');">
+    style="background-image: url('Blue_white_flower_frame_with_watercolor.png');">
     <div class="bg-black bg-opacity-50 p-6 md:p-10 rounded-xl text-white">
       <h2 class="text-5xl md:text-9xl  mb-4 style-script-regular">Giselle e Wallace</h2>
       <p class="text-lg md:text-2xl mb-6">Dia 08 de Novembro de 2025</p>
@@ -52,7 +52,7 @@
   <section id="historia" class="py-16 max-w-6xl mx-auto px-6">
     <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-600 mb-8">💖 Nossa História 💖</h2>
     <div class="grid md:grid-cols-2 gap-8 items-center">
-      <img src="502626217_18511016560027738_7797397349597336168_n.jpg" alt="Casal" class="rounded-xl shadow-lg w-full">
+      <img src="WhatsApp Image 2025-09-19 at 21.14.02.jpeg" alt="Casal" class="rounded-xl shadow-lg w-full">
       <p class="text-base md:text-lg leading-relaxed">
         Em 2019, o destino decidiu brincar de cupido e nos colocou frente a frente mais uma vez. Foi apenas em 2020 que nossas vidas se entrelaçaram de verdade e, desde então, não nos desgrudamos mais.
         Vieram dias de risadas até a barriga doer, abraços que dizem mais do que mil palavras, viagens que se transformaram em memórias eternas e pequenos gestos que, juntos, construíram um amor imenso. Entre um pôr do sol na praia, uma foto espontânea e um olhar cúmplice, fomos escrevendo, capítulo a capítulo, a nossa história.
@@ -98,7 +98,8 @@
   <!-- RSVP -->
   <section id="rsvp" class="py-16 bg-blue-950 px-4">
     <section id="rsvp" class="py-16 bg-blue-950 px-4">
-  <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-100 mb-8">Confirmação de Presença</h2>
+  <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-100 mb-">Confirmação de Presença</h2>
+  <p class="text-center text-blue-100 mb-8">Estamos cuidando de cada detalhe com muito carinho! Por isso, pedimos que a confirmação seja feita apenas para o número de pessoas indicado no convite.</p>
   <form id="whatsappForm" class="max-w-lg mx-auto bg-white p-6 md:p-8 rounded-xl shadow space-y-6">
     <input type="text" id="nome" placeholder="Jesus, Maria e José" class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-600" required>
     <select id="confirmacao" class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-blue-600" required>
@@ -132,7 +133,7 @@
       let confirmacao = document.getElementById("confirmacao").value;
       let numero = "5521964984007";
 
-      let mensagem = `Confirmação de Presença\nNome: ${nome}\nStatus: ${confirmacao}\nAcompanhantes: ${acompanhantes}`;
+      let mensagem = `Confirmação de Presença\nNome: ${nome}\nStatus: ${confirmacao}`;
       let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
       window.open(url, "_blank");
     });
